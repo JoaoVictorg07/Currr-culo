@@ -1,0 +1,108 @@
+html {
+    background-color: aliceblue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 + p {
+    margin-top: 30px;
+}
+
+h2 + ul {
+    margin-top: 30px;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    text-align: center;  
+}
+
+ul {
+    text-align: center;
+    list-style-type:none ;
+}
+
+.apresentação img {
+    height: 300px;
+    width: 230px;
+    margin-left: 530px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.apresentação i {
+    color: black;
+    text-align: center;
+}
+
+.e-mail, .local, .telefone {
+    display: flex;
+}
+
+#i-e-mail, #i-local, #i-telefone {
+    padding-right: 20px;
+}
+
+.e-mail {
+    margin-left: 510px;
+}
+
+.local {
+    margin-left: 550px;
+}
+
+.telefone {
+    margin-left: 560px;
+}
+
+.habilidades ul {
+    margin-right: 40px;
+}
+
+i {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .apresentação img {
+        height: 300px;
+        width: 230px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+ 
+    .e-mail {
+        margin-left: 90px;
+    }
+    
+    .local {
+        margin-left: 130px;
+    }
+    
+    .telefone {
+        margin-left: 140px;
+    }
+}
